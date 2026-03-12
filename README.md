@@ -29,6 +29,7 @@ The framework follows the Principle of Least Privilege (PoLP) by scoping permiss
 2. **Setup:** Update the users.csv template with test data and set your TenantId in the deployment script.
 3. **Deployment:** Run the deployment script to provision the identity structure and resource groups.
 4. **Validation:** Verify group memberships and role assignments via the Azure Portal or the provided verification commands.
+5. **Cleanup:** To remove all created resources and avoid costs, run the Cleanup.ps1 script after testing.
 
 ## Lessons Learned
 * Navigating cross-module authentication between the Identity Plane and the Management Plane.
